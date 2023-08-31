@@ -4,7 +4,7 @@ from joblib import load
 import os 
 
 # Cargar modelo
-dt = load("dt1.joblib")
+dt = load("dt2.joblib")
 
 # Servidor
 servidorWeb = Flask(__name__)
